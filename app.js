@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const port = 3000;
 const app = express();
 const mongoose = require("mongoose");
-
+mongoose.set('strictQuery', true);
 
 
 app.set('view engine', 'ejs');
