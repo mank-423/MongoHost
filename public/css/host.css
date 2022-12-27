@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+.card
+{
+    background-color: greenyellow;
+    width: 35%;
+    position: absolute;
+    left:35%;
+    bottom:15%;
+    border-radius: 47%;
+    padding: 2% ;
+}
+
+.wide{
+    width: 60%;
+}
